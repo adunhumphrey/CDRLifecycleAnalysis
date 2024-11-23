@@ -1,0 +1,24 @@
+#' Lifecycle Analysis Data for Carbon Dioxide Removal (CDR) Technologies
+#'
+#' A dataset containing lifecycle emissions data for various Carbon Dioxide Removal (CDR) technologies.
+#' The dataset includes emissions from manufacturing, transport, operation, and end-of-life stages, as well as
+#' total CO2 removed, net removal efficiency, and the Net Carbon Removal Ratio (NCRR).
+#'
+#' @format A data frame with columns:
+#' \describe{
+#'   \item{Technology}{Name of the CDR technology (e.g., BECCS, DAC, Biochar, OEW).}
+#'   \item{Manufacturing_Emissions}{Emissions from the manufacturing stage (tons CO2 per ton removed).}
+#'   \item{Transport_Emissions}{Emissions from transport (tons CO2 per ton removed).}
+#'   \item{Operational_Emissions}{Emissions from operation (tons CO2 per ton removed).}
+#'   \item{End_of_Life_Emissions}{Emissions from end-of-life stage (tons CO2 per ton removed).}
+#'   \item{Total_CO2_Removed}{Total amount of CO2 removed by the technology (tons).}
+#'   \item{Energy_Usage}{Energy required per ton of CO2 removed (MWh).}
+#'   \item{Total_Lifecycle_Emissions}{Sum of emissions across all lifecycle stages (tons CO2 per ton removed).}
+#'   \item{Net_Removal_Efficiency}{Net CO2 removed after accounting for lifecycle emissions (tons).}
+#'   \item{NCRR}{Net Carbon Removal Ratio (NCRR), the ratio of net CO2 removed to lifecycle emissions.}
+#' }
+#'
+#' @examples
+#' data(CDR_Lifecycle)
+#' head(CDR_Lifecycle)
+"CDR_Lifecycle"

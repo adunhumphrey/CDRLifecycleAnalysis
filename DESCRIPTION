@@ -1,0 +1,15 @@
+Package: CDRLifecycleAnalysis
+Title: A sample recreation of the tools for Generating Job Potential Reports
+Version: 0.1.0
+Authors@R: 
+  person("Humphrey", email = "humphreyadun@gmail.com", role = c("aut", "cre"))
+Description: Functions to calculate and summarize job potential data from GCAM output.
+License: MIT
+Imports: 
+  dplyr,
+  rgcam,
+  ggplot2
+Depends: 
+    R (>= 2.10)
+LazyData: true
+RoxygenNote: 7.3.2
